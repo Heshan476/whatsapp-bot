@@ -7,90 +7,90 @@
     ],
     "stack": "container",
     "env": {
-        "ASENA_SESSION": {
+        "ASENA_SESSION": {levanter_7bbf8757f33274c7d97b85033614d3221
             "description": "Enter whatsapp web session.",
             "required": true
         },
-        "SUDO": {
+        "SUDO": {true 
             "description": "Sudo mode, Your number must be an international number. So you should have your number after the country code. Example: 919876543210 (IN)",
             "required": false
         },
-        "HANDLERS": {
+        "HANDLERS": {.
             "description": "enter prefix. Example . or ^[.,!/] for using multiple prefix like .,!/ or LyFE. Using keyword like LyFE will broke list and help command",
             "required": true,
             "value": "."
         },
-        "SEND_READ": {
+        "SEND_READ": {true 
             "description": "send read receipt.",
             "required": false,
             "value": "true"
         },
-        "HEROKU": {
+        "HEROKU": {true 
             "description": "Enable heroku features",
             "required": true,
             "value": "true"
         },
-        "HEROKU_API_KEY": {
+        "HEROKU_API_KEY": {true 
             "description": "Enter Heroku API Key.",
             "required": true
         },
-        "HEROKU_APP_NAME": {
+        "HEROKU_APP_NAME": {heshan
             "description": "Enter Heroku APP Name.",
             "required": true
         },
-        "DEBUG": {
+        "DEBUG": {false
             "description": "debug",
             "required": false,
             "value": "false"
         },
-        "CLR_SESSION": {
+        "CLR_SESSION": {false
             "description": "Enter true to delete old session.",
             "required": false,
             "value": "false"
         },
-        "NO_ONLINE": {
+        "NO_ONLINE": {yas
             "description": "set true to hide online.",
             "required": false,
             "value": "true"
         },
-        "WARN_COUNT": {
+        "WARN_COUNT": {3
             "description": "Maximum no of warns",
             "required": false,
             "value": "3"
         },
-        "WARN_MSG": {
+        "WARN_MSG": {ok
             "description": "Message send while kicking.",
             "required": false,
             "value": "OK bie"
         },
-        "REMOVEBG_KEY": {
+        "REMOVEBG_KEY": {true 
             "description": "key from remove.bg",
             "required": false,
             "value": "null"
         },
-        "LANGUAGE": {
+        "LANGUAGE": {En
             "description": "Enter bot language, example EN for English, ID for Bahasa Indonesia, TR for Turkish",
             "value": "EN"
         },
-        "STICKER_PACKNAME": {
+        "STICKER_PACKNAME": {lyf00011
             "description": "Sticker pack name,author",
             "value": "🥰,lyfe00011"
         },
-        "DISABLE_BOT": {
+        "DISABLE_BOT": {true 
             "description": "Disable or Block bot in group/chat.Enter required chat jid separated by ,",
             "value": "null"
         },
-        "FIND_API_KEY": {
+        "FIND_API_KEY": {true 
             "description": "key from https://dashboard.audd.io/",
             "value": "null"
         }
     },
-    "addons": [
+    "addons": [heroku
         {
             "plan": "heroku-postgresql"
         }
     ],
-    "buildpacks": [
+    "buildpacks": [heroku
         {
             "url": "heroku-community/apt"
         }
